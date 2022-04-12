@@ -8,7 +8,7 @@ function compute()
         document.getElementById("principal").focus();
         return;
     }
-//variables
+
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
